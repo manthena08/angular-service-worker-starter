@@ -1,21 +1,20 @@
 # angular-service-worker-starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+Quick Start
+## Make sure you have Node version >= 6.0 and NPM >=3
 
-## Development server
+> Clone/Download the repo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+# Clone our repo.
+git clone https://github.com/manthena08/angular-service-worker-starter.git
 
-## Build
+# change directory to our repo
+cd angular-service-worker-starter
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+# install the repo with npm
+npm install
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
+# To see the service worker in action run 
+ng build 
+npm run static-serve
